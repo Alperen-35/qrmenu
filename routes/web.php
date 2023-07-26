@@ -17,5 +17,9 @@ use App\Http\Controllers\Controller;
 
 Route::get('/',[Controller::class,'create'])->name('/');
 Route::get('urunekle',[Controller::class,'create'])->name('urunekle');
+Route::get('/update/{id}',[Controller::class,'update'])->name('update');
+Route::get('/urunDuzenle/{id}',[Controller::class,'urunDuzenle'])->name('urunDuzenle');
 Route::post('eklePost', [Controller::class, 'eklePost'])->name('eklePost');
+Route::get('/updatePost/{id}', [Controller::class, 'updatePost'])->name('updatePost');
 Route::get('urunler',[Controller::class,'urunler'])->name('urunler');
+Route::get('/urunDelete/{id}', [Controller::class, 'urunDelete'])->name('urunDelete');

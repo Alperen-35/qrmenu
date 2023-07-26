@@ -99,6 +99,8 @@
     }
 });
     </script>
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+    <script src="toastr.js"></script>
 </body>
 
 </html>

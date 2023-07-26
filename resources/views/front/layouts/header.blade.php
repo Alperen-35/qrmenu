@@ -3,7 +3,7 @@
 
 <head>
 
-    
+
     <meta charset="utf-8" />
     <title>Dashboard | Morvin - Admin & Dashboard Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,15 +13,24 @@
     <link rel="shortcut icon" href="{{ asset('theme') }}/assets/images/favicon.ico">
 
     <!-- plugin css -->
-    <link href="{{ asset('theme') }}/assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('theme') }}/assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css"
+        rel="stylesheet" type="text/css" />
 
     <!-- Bootstrap Css -->
-    <link href="{{ asset('theme') }}/assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('theme') }}/assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet"
+        type="text/css" />
     <!-- Icons Css -->
     <link href="{{ asset('theme') }}/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
     <!-- App Css-->
     <link href="{{ asset('theme') }}/assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Dropify/0.2.2/css/dropify.css">
+    <link href="toastr.css" rel="stylesheet" />
+    <script src="
+    https://cdn.jsdelivr.net/npm/sweetalert2@11.7.20/dist/sweetalert2.all.min.js
+    "></script>
+    <link href="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.7.20/dist/sweetalert2.min.css
+" rel="stylesheet">
 
 </head>
 
@@ -35,27 +44,27 @@
             <div class="navbar-header">
                 <div class="d-flex">
 
-                       <!-- LOGO -->
-                 <div class="navbar-brand-box">
-                    <a href="index.html" class="logo logo-dark">
-                        <span class="logo-sm">
-                            <img src="dist/assets/images/logo-sm.png" alt="" height="22">
-                        </span>
-                        <span class="logo-lg">
-                            <img src="dist/assets/images/logo-dark.png" alt="" height="20">
-                        </span>
-                    </a>
+                    <!-- LOGO -->
+                    <div class="navbar-brand-box">
+                        <a href="index.html" class="logo logo-dark">
+                            <span class="logo-sm">
+                                <img src="dist/assets/images/logo-sm.png" alt="" height="22">
+                            </span>
+                            <span class="logo-lg">
+                                <img src="dist/assets/images/logo-dark.png" alt="" height="20">
+                            </span>
+                        </a>
 
-                    <a href="index.html" class="logo logo-light">
-                        <span class="logo-sm">
-                            <img src="dist/assets/images/logo-sm.png" alt="" height="22">
-                        </span>
-                        <span class="logo-lg">
-                            <img src="dist/assets/images/logo-light.png" alt="" height="20">
-                        </span>
-                    </a>
-                </div>
-            
+                        <a href="index.html" class="logo logo-light">
+                            <span class="logo-sm">
+                                <img src="dist/assets/images/logo-sm.png" alt="" height="22">
+                            </span>
+                            <span class="logo-lg">
+                                <img src="dist/assets/images/logo-light.png" alt="" height="20">
+                            </span>
+                        </a>
+                    </div>
+
                 </div>
             </div>
         </header>
