@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Controller;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+Route::get('/',[Controller::class,'create'])->name('/');
+Route::get('urunekle',[Controller::class,'create'])->name('urunekle');
+Route::post('eklePost', [Controller::class, 'eklePost'])->name('eklePost');
+Route::get('urunler',[Controller::class,'urunler'])->name('urunler');

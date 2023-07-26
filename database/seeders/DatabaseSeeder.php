@@ -4,6 +4,8 @@ namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use App\Models\Kategori;
+
 
 class DatabaseSeeder extends Seeder
 {
@@ -12,11 +14,20 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // \App\Models\User::factory(10)->create();
+        $kategori1 = new Kategori;
+        $kategori1->kategori_adi = 'Ana Yemek';
+        $kategori1->save();
 
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
+        $kategori2 = new Kategori;
+        $kategori2->kategori_adi = 'Çorba';
+        $kategori2->save();
+
+        $kategori3 = new Kategori;
+        $kategori3->kategori_adi = 'Atıştırmalıklar';
+        $kategori3->save();
+
+        $kategori3 = new Kategori;
+        $kategori3->kategori_adi = 'İçecekler';
+        $kategori3->save();
     }
 }

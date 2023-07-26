@@ -10,17 +10,17 @@
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Themesdesign" name="author" />
     <!-- App favicon -->
-    <link rel="shortcut icon" href="dist/assets/images/favicon.ico">
+    <link rel="shortcut icon" href="{{ asset('theme') }}/assets/images/favicon.ico">
 
     <!-- plugin css -->
-    <link href="dist/assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('theme') }}/assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
 
     <!-- Bootstrap Css -->
-    <link href="dist/assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('theme') }}/assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
     <!-- Icons Css -->
-    <link href="dist/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('theme') }}/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
     <!-- App Css-->
-    <link href="dist/assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('theme') }}/assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Dropify/0.2.2/css/dropify.css">
 
 </head>
@@ -74,13 +74,13 @@
                         <li class="menu-title">Menu</li>
 
                         <li>
-                            <a href="dist/../urun-ekle.php" class="waves-effect">
+                            <a href="{{ url('urunekle') }}" class="waves-effect">
                                 <span>Ürün Ekle</span>
                             </a>
                         </li>
 
                         <li>
-                            <a href="dist/../urunler.php" class="waves-effect">
+                            <a href="{{ url('urunler') }}" class="waves-effect">
                                 <span>Ürünler</span>
                             </a>
                         </li>
